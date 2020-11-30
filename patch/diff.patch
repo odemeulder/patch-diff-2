@@ -1,0 +1,22 @@
+diff -u ./generated/policy.xml ./final/policy.xml
+--- ./generated/policy.xml	2020-11-30 10:40:51.000000000 -0500
++++ ./final/policy.xml	2020-11-30 10:41:34.000000000 -0500
+@@ -5,5 +5,6 @@
+   </head>
+   <definition>
+     <invoke>Some Script</invoke>
++    <something> here</something>
+   </definition>
+ </policy>
+diff -u ./generated/proxy.xml ./final/proxy.xml
+--- ./generated/proxy.xml	2020-11-30 10:40:51.000000000 -0500
++++ ./final/proxy.xml	2020-11-30 10:41:32.000000000 -0500
+@@ -6,6 +6,7 @@
+     <endpoint>
+       <path>/entitlements</path>
+       <policy>mypolicy</policy>
++      <policy>ratelimiter</policy>
+       <method>GET</method>
+     </endpoint>
+     <endpoint>
+Only in ./final/: rate_limiter.xml

@@ -1,0 +1,9 @@
+<policy>
+  <head>
+    <name>rate_limiter</name>
+    <meta>Policy</meta>
+  </head>
+  <definition>
+    <rate>1000rps</rate>
+  </definition>
+</policy>

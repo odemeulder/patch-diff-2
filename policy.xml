@@ -1,0 +1,9 @@
+<policy>
+  <head>
+    <name>oauth</name>
+    <meta>Policy</meta>
+  </head>
+  <definition>
+    <invoke>Some Script</invoke>
+  </definition>
+</policy>
